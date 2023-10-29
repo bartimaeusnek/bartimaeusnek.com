@@ -1,0 +1,49 @@
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.url-list {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.url-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.url-list li {
+  margin-bottom: 10px;
+}
+
+.url-list a {
+  text-decoration: none;
+  color: #0077b5;
+}
+
+.url-list a:hover {
+  text-decoration: underline;
+}
+.center{
+  text-align: center;
+}
+.small{
+  font-size: 8px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

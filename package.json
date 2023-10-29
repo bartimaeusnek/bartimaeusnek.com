@@ -1,0 +1,16 @@
+{
+  "name": " ",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": "",
+  "license": "",
+  "author": "",
+  "scripts": {
+    "build": "npm run bin-css && copyfiles index.html css/vendor.css robots.txt site.webmanifest favicon.ico icon.png build",
+    "bin-css": "cleancss -O2 -o css/vendor.css css/main.css css/normalize.css css/site.css"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.2",
+    "copyfiles": "^2.4.1"
+  }
+}
